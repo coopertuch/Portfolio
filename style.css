@@ -160,8 +160,7 @@ footer > a {
 .sb {
   max-width: 100%;
   height: auto;
-  margin-top: 6%;
-  display: none;
+  /* display: none; */
   -moz-box-shadow: 0 0 5px #ccc;
   -webkit-box-shadow: 0 0 5px #ccc;
   box-shadow: 0 0 5px #ccc;
@@ -186,6 +185,11 @@ footer > a {
   -moz-box-shadow: 0 0 5px #ccc;
   -webkit-box-shadow: 0 0 5px #ccc;
   box-shadow: 0 0 5px #ccc;
+}
+
+.study-body {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .arrow-left {
