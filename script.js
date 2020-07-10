@@ -16,30 +16,15 @@ window.onclick = function (event) {
   }
 };
 
-// SLIDER
-const next = document.querySelector(".next");
-const prev = document.querySelector(".prev");
-const images = document.getElementsByClassName("images");
-
-let currentImgIndex = 0;
-let previousImgIndex = 0;
-
-next.addEventListener("click", () => {
-  previousImgIndex = currentImgIndex;
-  currentImgIndex++;
-  if (currentImgIndex >= images.length) {
-    currentImgIndex = 0;
+// BLINK
+let coop = document.getElementById("coop");
+window.setInterval(function () {
+  if ((coop.style = "text-decoration: underline;")) {
+    coop.style = "text-decoration: none;";
   }
-  images[previousImgIndex].style.display = "none";
-  images[currentImgIndex].style.display = "block";
-});
-
-prev.addEventListener("click", () => {
-  previousImgIndex = currentImgIndex;
-  currentImgIndex--;
-  if (currentImgIndex < 0) {
-    currentImgIndex = images.length - 1;
+}, 2000);
+window.setInterval(function () {
+  if ((coop.style = "text-decoration: none;")) {
+    coop.style = "text-decoration: underline;";
   }
-  images[previousImgIndex].style.display = "none";
-  images[currentImgIndex].style.display = "block";
-});
+}, 4000);

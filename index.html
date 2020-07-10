@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Muli&family=Playfair+Display:wght@800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link
@@ -17,7 +17,7 @@
 
   <body>
     <nav>
-      <a href="./index.html" class="play fourty">CT.</a>
+      <a href="./index.html" class="play fourty six">CT.</a>
       <div class="right">
         <div class="dropdown">
           <button
@@ -28,54 +28,55 @@
           <div id="myDropdown" class="dropdown-content">
             <a href="./index.html" class="muli">Home</a>
             <a href="./about.html" class="muli">About</a>
+            <a href="https://github.com/coopertuch" class="muli" target="_blank"
+              >GitHub</a
+            >
             <a
               href="https://www.linkedin.com/in/coopertuch/"
               class="muli"
               target="_blank"
               >LinkedIn</a
             >
-            <a href="https://github.com/coopertuch" class="muli" target="_blank"
-              >GitHub</a
-            >
           </div>
         </div>
       </div>
     </nav>
 
-    <div class="body-box">
-      <div class="banner cent">
-        <span class="play fifty">Hi, I'm Cooper.</span>
-        <br />
-        <span class="muli thirty">I'm a UX Designer & Frontend Developer.</span>
+    <div class="banner cent">
+      <span class="play sixty six"
+        >Hi, I'm
+        <a href="./about.html"
+          ><span id="coop" style="text-decoration: underline;">Cooper</span></a
+        >.</span
+      >
+      <br />
+      <span class="muli thirty">I'm a UX Designer & Frontend Developer.</span>
+    </div>
+    <div class="project-holder study-body">
+      <div class="p1 proj" onClick="location.href='./meditateapp.html'">
+        <p class="play white twenty six">MeditateApp</p>
+        <p class="muli white ten marg">IoS App (UX)</p>
       </div>
-      <div class="project-holder">
-        <div class="p1 proj" onClick="location.href='./meditateapp.html'">
-          <p class="play white twenty">MeditateApp</p>
-          <p class="muli white ten marg">IoS App (UX)</p>
-        </div>
-        <div class="p2 proj" onClick="location.href='./snowboard.html'">
-          <p class="play white twenty">SnowBoard</p>
+      <div class="p2 proj" onClick="location.href='./snowboard.html'">
+        <p class="play white twenty six">SnowBoard</p>
 
-          <p class="muli white ten">E-Commerce (UX)</p>
-        </div>
-        <div class="p3 proj" onClick="location.href='./songselect.html'">
-          <p class="play white twenty">SongSelect</p>
-          <p class="muli white ten">E-Commerce (UX)</p>
-        </div>
+        <p class="muli white ten">E-Commerce (UX)</p>
       </div>
-      <div class="project-holder">
-        <div class="p4 proj" onClick="location.href='./weworkout.html'">
-          <p class="play white twenty">WeWorkOut</p>
-          <p class="muli white ten marg">Web Application (Full Stack)</p>
-        </div>
-        <div class="p6 proj" onClick="location.href='./devq.html'">
-          <p class="play white twenty">DevQ</p>
-          <p class="muli white ten">Web Application (Full Stack)</p>
-        </div>
-        <div class="p5 proj" onClick="location.href='./bbzquestions.html'">
-          <p class="play white twenty">BB'zQuestions</p>
-          <p class="muli white ten">Web Application (Frontend)</p>
-        </div>
+      <div class="p3 proj" onClick="location.href='./songselect.html'">
+        <p class="play white twenty six">SongSelect</p>
+        <p class="muli white ten">E-Commerce (UX)</p>
+      </div>
+      <div class="p4 proj" onClick="location.href='./weworkout.html'">
+        <p class="play white twenty six">WeWorkOut</p>
+        <p class="muli white ten marg">Web Application (Full Stack)</p>
+      </div>
+      <div class="p6 proj" onClick="location.href='./devq.html'">
+        <p class="play white twenty six">DevQ</p>
+        <p class="muli white ten">Web Application (Full Stack)</p>
+      </div>
+      <div class="p5 proj" onClick="location.href='./bbzquestions.html'">
+        <p class="play white twenty six">BB'zQuestions</p>
+        <p class="muli white ten">Web Application (Frontend)</p>
       </div>
     </div>
 
@@ -86,9 +87,6 @@
       <a href="https://github.com/coopertuch" target="_blank"
         ><i class="fa fa-github"></i
       ></a>
-      <!-- <a href="https://medium.com/@coopertuch" target="_blank"
-        ><i class="fa fa-medium"></i
-      ></a> -->
     </footer>
     <script src="script.js"></script>
   </body>
