@@ -97,6 +97,10 @@ p {
   color: white;
 }
 
+.hov {
+  cursor: pointer;
+}
+
 /* FOOTER */
 footer {
   position: fixed;
