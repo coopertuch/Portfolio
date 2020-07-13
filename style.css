@@ -13,6 +13,11 @@ a {
 
 * {
   color: black;
+  /* transition: color 0.4s ease 0s;
+  transition-property: color;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+  transition-delay: 0s; */
 }
 
 button:focus {
@@ -189,7 +194,7 @@ footer > a {
 }
 
 .proj {
-  width: 32%;
+  width: 33%;
   height: 86px;
   box-shadow: 0 0 5px rgb(170, 170, 170);
   text-align: center;
