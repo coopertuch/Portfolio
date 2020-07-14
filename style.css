@@ -242,4 +242,7 @@ footer > a {
   .about {
     flex-wrap: wrap;
   }
+  .sixty {
+    font-size: 56px;
+  }
 }
