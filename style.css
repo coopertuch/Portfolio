@@ -13,11 +13,6 @@ a {
 
 * {
   color: black;
-  /* transition: color 0.4s ease 0s;
-  transition-property: color;
-  transition-duration: 0.4s;
-  transition-timing-function: ease;
-  transition-delay: 0s; */
 }
 
 button:focus {
@@ -99,6 +94,10 @@ p {
 
 .hov {
   cursor: pointer;
+}
+
+.sdw {
+  box-shadow: 0 0 5px rgb(170, 170, 170);
 }
 
 /* FOOTER */
