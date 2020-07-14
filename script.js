@@ -17,14 +17,14 @@ window.onclick = function (event) {
 };
 
 // BLINK
-let coop = document.getElementById("coop");
-window.setInterval(function () {
-  if ((coop.style = "text-decoration: underline;")) {
-    coop.style = "text-decoration: none;";
-  }
-}, 1000);
-window.setInterval(function () {
-  if ((coop.style = "text-decoration: none;")) {
-    coop.style = "text-decoration: underline;";
-  }
-}, 2000);
+// let coop = document.getElementById("coop");
+// window.setInterval(function () {
+//   if ((coop.style = "text-decoration: underline;")) {
+//     coop.style = "text-decoration: none;";
+//   }
+// }, 1000);
+// window.setInterval(function () {
+//   if ((coop.style = "text-decoration: none;")) {
+//     coop.style = "text-decoration: underline;";
+//   }
+// }, 2000);
