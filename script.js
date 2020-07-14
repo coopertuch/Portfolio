@@ -22,9 +22,9 @@ window.onclick = function (event) {
 //   if ((coop.style = "text-decoration: underline;")) {
 //     coop.style = "text-decoration: none;";
 //   }
-// }, 1000);
+// }, 2000);
 // window.setInterval(function () {
 //   if ((coop.style = "text-decoration: none;")) {
 //     coop.style = "text-decoration: underline;";
 //   }
-// }, 2000);
+// }, 4000);
