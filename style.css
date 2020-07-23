@@ -58,7 +58,7 @@ p {
 .nav-links {
   float: right;
   margin-right: 30px;
-  margin-top: 2px;
+  margin-top: -3px;
 }
 
 .nav-links > a {
@@ -139,49 +139,9 @@ p {
   margin-top: 0px;
 }
 
-.banner {
-  max-width: 100%;
-  height: 60%;
-  margin-top: 3%;
-}
-
-.project-holder {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  height: 16%;
-  margin-top: 10px;
-}
-
-.project-holder > div {
-  margin-top: 20px;
-}
-
-.proj {
-  width: 33%;
-  height: 86px;
-  box-shadow: 0 0 4px rgb(170, 170, 170);
-  text-align: center;
-  border-radius: 1%;
-  background-color: black;
-  overflow: hidden;
-}
-
-.proj:hover {
-  cursor: pointer;
-  background-color: white;
-  -webkit-transform: scale(0.98);
-  -ms-transform: scale(0.98);
-  transform: scale(0.98);
-}
-
-.proj:hover > p {
-  color: black;
-}
-
 /* HOME */
 .card {
-  margin: 24px 20% 28px 20%;
+  margin: 0px 16% 52px 16%;
   background-color: black;
   border-radius: 5px;
   box-shadow: 0 0 5px rgb(170, 170, 170);
@@ -191,14 +151,14 @@ p {
 h1 {
   color: white;
   padding-top: 1.5%;
-  margin-left: 3%;
+  margin-left: 2.5%;
   margin-bottom: 4px;
 }
 
 h2 {
   color: white;
   margin-top: 0px;
-  margin-left: 3%;
+  margin-left: 2.5%;
   margin-right: 3%;
 }
 
@@ -219,7 +179,7 @@ h2 {
     font-size: 56px;
   }
   .card {
-    margin: 24px 10% 28px 10%;
+    margin: 24px 6% 28px 6%;
     background-color: black;
     border-radius: 5px;
     box-shadow: 0 0 5px rgb(170, 170, 170);
