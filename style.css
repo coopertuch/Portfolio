@@ -58,12 +58,12 @@ p {
 .nav-links {
   float: right;
   margin-right: 29px;
-  margin-top: -6px;
+  margin-top: 0px;
 }
 
 .nav-links > a {
   margin-left: 6px;
-  font-size: 22px;
+  font-size: 19px;
 }
 
 .right {
