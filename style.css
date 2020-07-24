@@ -57,13 +57,13 @@ p {
 /* CSS */
 .nav-links {
   float: right;
-  margin-right: 30px;
-  margin-top: -3px;
+  margin-right: 29px;
+  margin-top: -6px;
 }
 
 .nav-links > a {
   margin-left: 6px;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .right {
@@ -101,7 +101,7 @@ p {
 }
 
 .fifty {
-  font-size: 52px;
+  font-size: 44px;
 }
 
 .sixty {
@@ -141,18 +141,20 @@ p {
 
 /* HOME */
 .card {
-  margin: 0px 16% 52px 16%;
+  margin: 0px 16% 48px 16%;
   background-color: black;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgb(170, 170, 170);
+  /* border-radius: 5px; */
+  box-shadow: 0 0 4px rgb(170, 170, 170);
   text-align: left;
+  /* border: 3px solid black; */
 }
 
 h1 {
   color: white;
-  padding-top: 1.5%;
+  padding-top: 1%;
   margin-left: 2.5%;
   margin-bottom: 4px;
+  margin-block-start: 0.35em;
 }
 
 h2 {
@@ -160,6 +162,10 @@ h2 {
   margin-top: 0px;
   margin-left: 2.5%;
   margin-right: 3%;
+}
+
+h3 {
+  margin: 0 0 0 0;
 }
 
 .proj-img {
@@ -180,9 +186,9 @@ h2 {
   }
   .card {
     margin: 24px 6% 28px 6%;
-    background-color: black;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgb(170, 170, 170);
+    /* background-color: black; */
+    /* border-radius: 5px; */
+    box-shadow: 0 0 4px rgb(170, 170, 170);
     text-align: left;
   }
 }
