@@ -134,7 +134,7 @@ p {
 }
 
 .sdw {
-  box-shadow: 0 0 4px rgb(170, 170, 170);
+  box-shadow: 0 0 3px rgb(170, 170, 170);
 }
 
 /* BODY */
@@ -149,9 +149,9 @@ p {
   margin: 0px 20% 48px 20%;
   /* background-color: black; */
   /* border-radius: 5px; */
-  box-shadow: 0 0 6px rgb(170, 170, 170);
+  /* box-shadow: 0 0 6px rgb(170, 170, 170); */
   text-align: center;
-  border: 3px solid black;
+  border: 4px solid black;
 }
 
 h1 {
