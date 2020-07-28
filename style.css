@@ -52,6 +52,7 @@ img {
 
 video {
   box-shadow: 0 0 4px rgb(170, 170, 170);
+  border: 3px solid black;
 }
 
 p {
@@ -178,6 +179,7 @@ h3 {
   width: 95%;
   margin-top: 0px;
   margin-bottom: 1.5%;
+  border: 3px solid black;
 }
 
 /* MOBILE */
