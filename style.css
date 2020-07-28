@@ -47,6 +47,11 @@ img {
   height: 100%;
   margin-top: 24px;
   margin-bottom: 12px;
+  box-shadow: 0 0 4px rgb(170, 170, 170);
+}
+
+video {
+  box-shadow: 0 0 4px rgb(170, 170, 170);
 }
 
 p {
@@ -97,7 +102,7 @@ p {
 }
 
 .fourty {
-  font-size: 28px;
+  font-size: 30px;
 }
 
 .fifty {
@@ -141,27 +146,26 @@ p {
 
 /* HOME */
 .card {
-  margin: 0px 16% 48px 16%;
-  background-color: black;
+  margin: 0px 20% 48px 20%;
+  /* background-color: black; */
   /* border-radius: 5px; */
-  box-shadow: 0 0 4px rgb(170, 170, 170);
-  text-align: left;
-  /* border: 3px solid black; */
+  box-shadow: 0 0 6px rgb(170, 170, 170);
+  text-align: center;
+  border: 3px solid black;
 }
 
 h1 {
-  color: white;
-  padding-top: 1%;
-  margin-left: 2.5%;
+  /* color: white; */
+  /* margin-left: 2.5%; */
   margin-bottom: 4px;
-  margin-block-start: 0.35em;
+  margin-block-start: 0.12em;
 }
 
 h2 {
-  color: white;
+  /* color: white; */
   margin-top: 0px;
-  margin-left: 2.5%;
-  margin-right: 3%;
+  /* margin-left: 2.5%; */
+  /* margin-right: 3%; */
 }
 
 h3 {
@@ -177,7 +181,7 @@ h3 {
 }
 
 /* MOBILE */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   .about {
     flex-wrap: wrap;
   }
@@ -188,8 +192,11 @@ h3 {
     margin: 24px 6% 28px 6%;
     /* background-color: black; */
     /* border-radius: 5px; */
-    box-shadow: 0 0 4px rgb(170, 170, 170);
-    text-align: left;
+    /* box-shadow: 0 0 3px rgb(170, 170, 170); */
+    text-align: center;
+  }
+  video {
+    width: 90%;
   }
 }
 
