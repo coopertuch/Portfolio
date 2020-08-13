@@ -70,7 +70,7 @@ p {
 }
 
 .nav-links > a {
-  margin-left: 16px;
+  margin-left: 24px;
   font-size: 16px;
 }
 
@@ -150,7 +150,7 @@ p {
 
 /* HOME */
 .card {
-  margin: 0px 20% 36px 20%;
+  margin: 0px 15% 36px 15%;
   /* background-color: black; */
   /* border-radius: 5px; */
   /* box-shadow: 0 0 6px rgb(170, 170, 170); */
